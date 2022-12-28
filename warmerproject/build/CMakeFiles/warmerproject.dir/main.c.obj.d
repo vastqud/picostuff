@@ -47,4 +47,26 @@ CMakeFiles/warmerproject.dir/main.c.obj: \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/uart.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/uart.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/dreq.h \
- C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio_uart\include/pico/stdio_uart.h
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio_usb\include/pico/stdio_usb.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_spi\include/hardware/spi.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/spi.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/spi.h \
+ c:\vsarm\armcc\112202~1.02\arm-none-eabi\include\stdio.h \
+ c:\vsarm\armcc\112202~1.02\lib\gcc\arm-none-eabi\11.2.1\include\stdarg.h \
+ c:\vsarm\armcc\112202~1.02\arm-none-eabi\include\sys\reent.h \
+ c:\vsarm\armcc\112202~1.02\arm-none-eabi\include\_ansi.h \
+ c:\vsarm\armcc\112202~1.02\arm-none-eabi\include\sys\_types.h \
+ c:\vsarm\armcc\112202~1.02\arm-none-eabi\include\machine\_types.h \
+ c:\vsarm\armcc\112202~1.02\arm-none-eabi\include\sys\lock.h \
+ c:\vsarm\armcc\112202~1.02\arm-none-eabi\include\sys\types.h \
+ c:\vsarm\armcc\112202~1.02\arm-none-eabi\include\machine\endian.h \
+ c:\vsarm\armcc\112202~1.02\arm-none-eabi\include\machine\_endian.h \
+ c:\vsarm\armcc\112202~1.02\arm-none-eabi\include\sys\select.h \
+ c:\vsarm\armcc\112202~1.02\arm-none-eabi\include\sys\_sigset.h \
+ c:\vsarm\armcc\112202~1.02\arm-none-eabi\include\sys\_timeval.h \
+ c:\vsarm\armcc\112202~1.02\arm-none-eabi\include\sys\timespec.h \
+ c:\vsarm\armcc\112202~1.02\arm-none-eabi\include\sys\_timespec.h \
+ c:\vsarm\armcc\112202~1.02\arm-none-eabi\include\sys\_pthreadtypes.h \
+ c:\vsarm\armcc\112202~1.02\arm-none-eabi\include\sys\sched.h \
+ c:\vsarm\armcc\112202~1.02\arm-none-eabi\include\machine\types.h \
+ c:\vsarm\armcc\112202~1.02\arm-none-eabi\include\sys\stdio.h
