@@ -1014,9 +1014,9 @@ Discarded input sections
  .comment       0x00000000       0x58 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text          0x00000000        0x0 C:\Users\avery\AppData\Local\Temp\ccC3Jpo4.o
- .data          0x00000000        0x0 C:\Users\avery\AppData\Local\Temp\ccC3Jpo4.o
- .bss           0x00000000        0x0 C:\Users\avery\AppData\Local\Temp\ccC3Jpo4.o
+ .text          0x00000000        0x0 C:\Users\avery\AppData\Local\Temp\ccse7O6h.o
+ .data          0x00000000        0x0 C:\Users\avery\AppData\Local\Temp\ccse7O6h.o
+ .bss           0x00000000        0x0 C:\Users\avery\AppData\Local\Temp\ccse7O6h.o
  .data          0x00000000        0x0 c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-calloc.o)
@@ -1278,11 +1278,11 @@ LOAD c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/n
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\avery\AppData\Local\Temp\ccC3Jpo4.o
+ .boot2         0x10000000      0x100 C:\Users\avery\AppData\Local\Temp\ccse7O6h.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x1cf8
+.text           0x10000100     0x1d00
                 0x10000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1348,191 +1348,190 @@ LOAD c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/n
  .text.frame_dummy
                 0x100002ec       0x24 c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
  .text.startup.main
-                0x10000310       0x38 CMakeFiles/warmerproject.dir/main.c.obj
+                0x10000310       0x44 CMakeFiles/warmerproject.dir/main.c.obj
                 0x10000310                main
  .text.gpio_init
-                0x10000348       0x3c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000348                gpio_init
+                0x10000354       0x3c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000354                gpio_init
  .text.hw_claim_or_assert
-                0x10000384       0x44 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000384                hw_claim_or_assert
+                0x10000390       0x44 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000390                hw_claim_or_assert
  .text.running_on_fpga
-                0x100003c8       0x10 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x100003c8                running_on_fpga
+                0x100003d4       0x10 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x100003d4                running_on_fpga
  .text.spin_locks_reset
-                0x100003d8       0x1c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x100003d8                spin_locks_reset
+                0x100003e4       0x1c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x100003e4                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x100003f4       0x18 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x100003f4                next_striped_spin_lock_num
+                0x10000400       0x18 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000400                next_striped_spin_lock_num
  .text.timer_pool_entry_comparator
-                0x1000040c       0x34 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x1000040c                timer_pool_entry_comparator
+                0x10000418       0x34 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000418                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x10000440       0x30 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000044c       0x30 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x10000470      0x104 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000047c      0x104 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x10000574      0x1c8 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000580      0x1c8 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_add_alarm_at.constprop.0
-                0x1000073c      0x11c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000748      0x11c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x10000858       0x64 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000858                alarm_pool_init_default
+                0x10000864       0x64 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000864                alarm_pool_init_default
  .text.sleep_until
-                0x100008bc       0xac CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100008bc                sleep_until
+                0x100008c8       0xac CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100008c8                sleep_until
  .text.sleep_ms
-                0x10000968       0x38 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000968                sleep_ms
+                0x10000974       0x38 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000974                sleep_ms
  .text.hardware_alarm_irq_handler
-                0x100009a0       0xb8 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100009ac       0xb8 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x10000a58       0x18 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10000a58                hardware_alarm_claim
+                0x10000a64       0x18 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000a64                hardware_alarm_claim
  .text.time_us_64
-                0x10000a70       0x14 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10000a70                time_us_64
+                0x10000a7c       0x14 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000a7c                time_us_64
  .text.busy_wait_until
-                0x10000a84       0x20 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10000a84                busy_wait_until
+                0x10000a90       0x20 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000a90                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x10000aa4       0x8c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10000aa4                hardware_alarm_set_callback
+                0x10000ab0       0x8c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000ab0                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x10000b30       0xe0 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10000b30                hardware_alarm_set_target
+                0x10000b3c       0xe0 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000b3c                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x10000c10       0x3c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10000c10                hardware_alarm_cancel
+                0x10000c1c       0x3c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000c1c                hardware_alarm_cancel
  .text.lock_init
-                0x10000c4c       0x10 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x10000c4c                lock_init
+                0x10000c58       0x10 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x10000c58                lock_init
  .text.mutex_init
-                0x10000c5c       0x1c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10000c5c                mutex_init
+                0x10000c68       0x1c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10000c68                mutex_init
  .text.recursive_mutex_init
-                0x10000c78       0x1c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10000c78                recursive_mutex_init
+                0x10000c84       0x1c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10000c84                recursive_mutex_init
  .text.ph_merge_nodes
-                0x10000c94       0x68 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10000ca0       0x68 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x10000cfc       0x3c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10000cfc                ph_post_alloc_init
+                0x10000d08       0x3c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10000d08                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x10000d38       0x9c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10000d38                ph_merge_two_pass
+                0x10000d44       0x9c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10000d44                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x10000dd4       0xf8 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10000de0       0xf8 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x10000ecc       0xfc CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10000ecc                ph_remove_head
+                0x10000ed8       0xfc CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10000ed8                ph_remove_head
  .text.ph_remove_and_free_node
-                0x10000fc8       0x7c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10000fc8                ph_remove_and_free_node
+                0x10000fd4       0x7c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10000fd4                ph_remove_and_free_node
  .text.runtime_init
-                0x10001044       0xf0 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001044                runtime_init
- .text.exit     0x10001134        0x4 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001134                exit
- .text.panic    0x10001138       0x30 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001138                panic
+                0x10001050       0xf0 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001050                runtime_init
+ .text.exit     0x10001140        0x4 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001140                exit
+ .text.panic    0x10001144       0x30 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001144                panic
  .text.hard_assertion_failure
-                0x10001168        0xc CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001168                hard_assertion_failure
+                0x10001174        0xc CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001174                hard_assertion_failure
  .text.clocks_init
-                0x10001174      0x2b0 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001174                clocks_init
+                0x10001180      0x2b0 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001180                clocks_init
  .text.irq_set_enabled
-                0x10001424       0x24 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001424                irq_set_enabled
+                0x10001430       0x24 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001430                irq_set_enabled
  .text.irq_get_vtable_handler
-                0x10001448       0x10 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001448                irq_get_vtable_handler
+                0x10001454       0x10 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001454                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x10001458       0x54 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001458                irq_set_exclusive_handler
+                0x10001464       0x54 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001464                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x100014ac      0x1b4 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100014ac                irq_remove_handler
+                0x100014b8      0x1b4 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100014b8                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x10001660       0xb4 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001660                irq_add_tail_to_free_list
+                0x1000166c       0xb4 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000166c                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x10001714       0x24 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001714                irq_init_priorities
+                0x10001720       0x24 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001720                irq_init_priorities
  .text.pll_init
-                0x10001738       0xa8 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x10001738                pll_init
+                0x10001744       0xa8 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x10001744                pll_init
  .text.watchdog_start_tick
-                0x100017e0       0x10 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x100017e0                watchdog_start_tick
+                0x100017ec       0x10 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x100017ec                watchdog_start_tick
  .text.xosc_init
-                0x100017f0       0x28 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x100017f0                xosc_init
+                0x100017fc       0x28 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x100017fc                xosc_init
  .text._out_char
-                0x10001818       0x10 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001824       0x10 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.weak_raw_vprintf
-                0x10001828       0x30 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10001828                weak_raw_vprintf
- .text          0x10001858       0x10 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10001834       0x30 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001834                weak_raw_vprintf
+ .text          0x10001864       0x10 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x10001868       0x10 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001868                rom_func_lookup
+                0x10001874       0x10 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001874                rom_func_lookup
  .text.rom_data_lookup
-                0x10001878       0x10 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001878                rom_data_lookup
+                0x10001884       0x10 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001884                rom_data_lookup
  .text.rom_funcs_lookup
-                0x10001888       0x44 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001888                rom_funcs_lookup
+                0x10001894       0x44 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001894                rom_funcs_lookup
  .text.__wrap___aeabi_uidiv
-                0x100018cc       0x4c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x100018cc                __wrap___aeabi_uidiv
-                0x100018cc                __wrap___aeabi_uidivmod
-                0x100018cc                div_u32u32
-                0x100018cc                divmod_u32u32
-                0x100018d4                divmod_u32u32_unsafe
-                0x100018fc                divmod_u32u32_savestate
+                0x100018d8       0x4c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x100018d8                __wrap___aeabi_uidiv
+                0x100018d8                __wrap___aeabi_uidivmod
+                0x100018d8                div_u32u32
+                0x100018d8                divmod_u32u32
+                0x100018e0                divmod_u32u32_unsafe
+                0x10001908                divmod_u32u32_savestate
  .text.__aeabi_double_init
-                0x10001918       0x94 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10001918                __aeabi_double_init
+                0x10001924       0x94 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10001924                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x100019ac       0x2c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100019ac                double_table_shim_on_use_helper
+                0x100019b8       0x2c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100019b8                double_table_shim_on_use_helper
  .text.__aeabi_lmul
-                0x100019d8       0x32 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x100019d8                __wrap___aeabi_lmul
- *fill*         0x10001a0a        0x2 
+                0x100019e4       0x32 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x100019e4                __wrap___aeabi_lmul
+ *fill*         0x10001a16        0x2 
  .text.__aeabi_float_init
-                0x10001a0c       0x64 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x10001a0c                __aeabi_float_init
+                0x10001a18       0x64 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10001a18                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x10001a70       0x2c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x10001a70                float_table_shim_on_use_helper
- .text          0x10001a9c       0x10 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10001a9c                __aeabi_mem_init
- .text.memcpy   0x10001aac        0xc CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10001aac                __wrap_memcpy
-                0x10001aac                __wrap___aeabi_memcpy
+                0x10001a7c       0x2c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x10001a7c                float_table_shim_on_use_helper
+ .text          0x10001aa8       0x10 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10001aa8                __aeabi_mem_init
+ .text.memcpy   0x10001ab8        0xc CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10001ab8                __wrap_memcpy
+                0x10001ab8                __wrap___aeabi_memcpy
  .text.stdio_out_chars_no_crlf
-                0x10001ab8       0x10 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001ac4       0x10 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x10001ac8       0xb4 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001ad4       0xb4 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string.isra.0
-                0x10001b7c       0xfc CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001b88       0xfc CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x10001c78       0xa0 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10001c78                __wrap_putchar
+                0x10001c84       0xa0 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001c84                __wrap_putchar
  .text.__wrap_puts
-                0x10001d18       0x3c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10001d18                __wrap_puts
- .text.strlen   0x10001d54       0x5c c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
-                0x10001d54                strlen
+                0x10001d24       0x3c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001d24                __wrap_puts
+ .text.strlen   0x10001d60       0x5c c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
+                0x10001d60                strlen
  *(.fini)
- .fini          0x10001db0        0x4 c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crti.o
-                0x10001db0                _fini
- *fill*         0x10001db4        0x4 
- .fini.__stub   0x10001db8       0x40 linker stubs
+ .fini          0x10001dbc        0x4 c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crti.o
+                0x10001dbc                _fini
+ .fini.__stub   0x10001dc0       0x40 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -1544,82 +1543,82 @@ LOAD c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/n
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x10001df8        0x0 c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x10001df8                . = ALIGN (0x4)
+ .eh_frame      0x10001e00        0x0 c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x10001e00                . = ALIGN (0x4)
 
-.glue_7         0x10001df8        0x0
- .glue_7        0x10001df8        0x0 linker stubs
+.glue_7         0x10001e00        0x0
+ .glue_7        0x10001e00        0x0 linker stubs
 
-.glue_7t        0x10001df8        0x0
- .glue_7t       0x10001df8        0x0 linker stubs
+.glue_7t        0x10001e00        0x0
+ .glue_7t       0x10001e00        0x0 linker stubs
 
-.vfp11_veneer   0x10001df8        0x0
- .vfp11_veneer  0x10001df8        0x0 linker stubs
+.vfp11_veneer   0x10001e00        0x0
+ .vfp11_veneer  0x10001e00        0x0 linker stubs
 
-.v4_bx          0x10001df8        0x0
- .v4_bx         0x10001df8        0x0 linker stubs
+.v4_bx          0x10001e00        0x0
+ .v4_bx         0x10001e00        0x0 linker stubs
 
-.iplt           0x10001df8        0x0
- .iplt          0x10001df8        0x0 c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x10001e00        0x0
+ .iplt          0x10001e00        0x0 c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10001df8       0xb0
+.rodata         0x10001e00       0xb0
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.hardware_alarm_claim.str1.4
-                0x10001df8       0x22 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x10001e1a        0x2 
+                0x10001e00       0x22 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x10001e22        0x2 
  .rodata.panic.str1.4
-                0x10001e1c       0x12 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x10001e2e        0x2 
+                0x10001e24       0x12 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x10001e36        0x2 
  .rodata.hard_assertion_failure.str1.4
-                0x10001e30        0xc CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001e38        0xc CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.str1.4
-                0x10001e3c       0x44 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10001e44       0x44 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x10001e80        0xc CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10001e88        0xc CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x10001e8c        0xc CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10001e94        0xc CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x10001e98        0xc CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10001ea0        0xc CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x10001ea4        0x2 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10001ea8                . = ALIGN (0x4)
- *fill*         0x10001ea6        0x2 
+                0x10001eac        0x2 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001eb0                . = ALIGN (0x4)
+ *fill*         0x10001eae        0x2 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x10001ea8                . = ALIGN (0x4)
+                0x10001eb0                . = ALIGN (0x4)
 
-.rel.dyn        0x10001ea8        0x0
- .rel.iplt      0x10001ea8        0x0 c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x10001eb0        0x0
+ .rel.iplt      0x10001eb0        0x0 c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x10001ea8                __exidx_start = .
+                0x10001eb0                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x10001ea8                __exidx_end = .
-                0x10001ea8                . = ALIGN (0x4)
-                0x10001ea8                __binary_info_start = .
+                0x10001eb0                __exidx_end = .
+                0x10001eb0                . = ALIGN (0x4)
+                0x10001eb0                __binary_info_start = .
 
-.binary_info    0x10001ea8       0x1c
+.binary_info    0x10001eb0       0x1c
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x10001ea8        0x4 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr30
-                0x10001eac        0x4 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr38
                 0x10001eb0        0x4 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr44
+ .binary_info.keep.__bi_ptr30
                 0x10001eb4        0x4 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr50
+ .binary_info.keep.__bi_ptr38
                 0x10001eb8        0x4 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr75
+ .binary_info.keep.__bi_ptr44
                 0x10001ebc        0x4 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr81
+ .binary_info.keep.__bi_ptr50
                 0x10001ec0        0x4 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr75
+                0x10001ec4        0x4 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr81
+                0x10001ec8        0x4 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
-                0x10001ec4                __binary_info_end = .
-                0x10001ec4                . = ALIGN (0x4)
-                0x10001ec4                __etext = .
+                0x10001ecc                __binary_info_end = .
+                0x10001ecc                . = ALIGN (0x4)
+                0x10001ecc                __etext = .
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -1628,7 +1627,7 @@ LOAD c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/n
                 0x20000000       0xc0 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0      0x16c load address 0x10001ec4
+.data           0x200000c0      0x16c load address 0x10001ecc
                 0x200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -1706,33 +1705,33 @@ LOAD c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/n
                 0x2000022c                __data_end__ = .
 
 .tm_clone_table
-                0x2000022c        0x0 load address 0x10002030
+                0x2000022c        0x0 load address 0x10002038
  .tm_clone_table
                 0x2000022c        0x0 c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x2000022c        0x0 c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x2000022c        0x0 load address 0x10002030
+.igot.plt       0x2000022c        0x0 load address 0x10002038
  .igot.plt      0x2000022c        0x0 c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x2000022c        0x0 load address 0x10002030
+                0x2000022c        0x0 load address 0x10002038
                 0x2000022c                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x20040000        0x0 load address 0x10002030
+.scratch_x      0x20040000        0x0 load address 0x10002038
                 0x20040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                . = ALIGN (0x4)
                 0x20040000                __scratch_x_end__ = .
-                0x10002030                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10002038                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x10002030
+.scratch_y      0x20041000        0x0 load address 0x10002038
                 0x20041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                . = ALIGN (0x4)
                 0x20041000                __scratch_y_end__ = .
-                0x10002030                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10002038                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x20000230      0x3c8
                 0x20000230                . = ALIGN (0x4)
@@ -1789,8 +1788,8 @@ LOAD c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/n
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x10002030        0x0
-                0x10002030                __flash_binary_end = .
+.flash_end      0x10002038        0x0
+                0x10002038                __flash_binary_end = .
                 0x20040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -1845,7 +1844,7 @@ LOAD CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico
 LOAD CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 LOAD CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-LOAD C:\Users\avery\AppData\Local\Temp\ccC3Jpo4.o
+LOAD C:\Users\avery\AppData\Local\Temp\ccse7O6h.o
 LOAD c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -1933,7 +1932,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000053a       0x2c CMakeFiles/warmerproject.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .ARM.attributes
-                0x00000566       0x22 C:\Users\avery\AppData\Local\Temp\ccC3Jpo4.o
+                0x00000566       0x22 C:\Users\avery\AppData\Local\Temp\ccse7O6h.o
  .ARM.attributes
                 0x00000588       0x1e c:/vsarm/armcc/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
