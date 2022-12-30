@@ -25,10 +25,10 @@ void write_to_register(spi_inst_t *spi, const uint cs, const uint8_t reg, uint8_
 }
 
 void read_register(spi_inst_t *spi, const uint cs, const uint8_t reg, uint8_t *buf, int mbytes) {
-    uint8_t msg = 0x00 | reg;
+    uint8_t read_command = 0x00 | reg;
 
     gpio_put(cs, 0);
-    spi_write_blocking(spi, &msg, 1); //send read command
+    spi_write_blocking(spi, &read_command, 1); //send read command
     spi_read_blocking(spi, 0, buf, mbytes); //read one byte from spi to buf array
     gpio_put(cs, 1);
 }
